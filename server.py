@@ -6,7 +6,7 @@ import zipfile
 import pandas as pd
 from dotenv import load_dotenv
 from langchain_experimental.agents import create_csv_agent
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 
 # Load environment variables
 load_dotenv()
